@@ -1,0 +1,57 @@
+element.style {
+
+}
+.img-fluid {
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+a {
+    color: #46004c;
+    transition: color 0.4s;
+}
+a {
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
+div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li, figcaption, textarea, input {
+    font: inherit;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+style attribute {
+    opacity: 1;
+    visibility: visible;
+    animation: auto ease 0s 1 normal none running none;
+}
+body {
+    font-family: Arapey;
+    font-style: normal;
+    line-height: 1.5;
+}
+body {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
